@@ -33,6 +33,7 @@ function MapDisplay() {
       arcgisScene.view.environment.atmosphereEnabled = false;
       arcgisScene.view.environment.starsEnabled = false;
       arcgisScene.view.ui.components = [];
+      arcgisScene.map.ground.opacity = 0.7;
     }
   });
 
